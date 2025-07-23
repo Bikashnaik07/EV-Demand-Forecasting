@@ -19,18 +19,13 @@ Building on our Week 1 insights, we now transition from observation to predictio
 
 ### Week 2 Deliverables:
 - Preprocessing & Outlier Handling:
-* Cleaned anomalies, handled missing values, and encoded categorical features.
-Feature Engineering:
-Extracted relevant features such as vehicle type, model year, county-wise distributions, and time variables to strengthen the model's predictive power.
-Model Training:
-Trained a Random Forest Regressor to predict future EV adoption using historical patterns. Hyperparameters were fine-tuned using RandomizedSearchCV.
-Model Evaluation:
-Evaluated predictions using MAE, RMSE, and R² metrics to quantify model performance.
-Forecasting:
-Generated short-term adoption forecasts for both single-county and multi-county levels.
-Persistence:
-Saved the trained model using joblib for deployment and reuse.
+  - Cleaned anomalies, handled missing values, and encoded categorical features.
+- Feature Engineering: Extracted relevant features such as vehicle type, model year, county-wise distributions, and time variables to strengthen the model's predictive power.
+- Model Training: Trained a Random Forest Regressor to predict future EV adoption using historical patterns. Hyperparameters were fine-tuned using RandomizedSearchCV.
+- Model Evaluation:Evaluated predictions using MAE, RMSE, and R² metrics to quantify model performance.
+- Forecasting: Generated short-term adoption forecasts for both single-county and multi-county levels.
+- Persistence: Saved the trained model using joblib for deployment and reuse.
 
 # Data Source:
-Washington State Department of Licensing (via Kaggle)
-Dataset: Electric Vehicle Population Size History by County
+-Washington State Department of Licensing (via Kaggle)
+_Dataset: Electric Vehicle Population Size History by County_
