@@ -11,15 +11,15 @@ We kick-started with understanding the dataset, identifying key metrics, and vis
 - Data loading, cleaning, and initial inspection.
 - Monthly registration trends of BEVs and PHEVs.
 - County-wise aggregation of vehicle counts
--EV penetration rate over time
--Time-series visualizations using Matplotlib and Seaborn
+- EV penetration rate over time
+- Time-series visualizations using Matplotlib and Seaborn
 
 ## Week 2: Forecasting Model Development
 Building on our Week 1 insights, we now transition from observation to prediction using machine learning.
 
 ### Week 2 Deliverables:
-Preprocessing & Outlier Handling:
-Cleaned anomalies, handled missing values, and encoded categorical features.
+- Preprocessing & Outlier Handling:
+* Cleaned anomalies, handled missing values, and encoded categorical features.
 Feature Engineering:
 Extracted relevant features such as vehicle type, model year, county-wise distributions, and time variables to strengthen the model's predictive power.
 Model Training:
