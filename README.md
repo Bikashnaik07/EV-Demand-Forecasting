@@ -18,8 +18,7 @@ We kick-started with understanding the dataset, identifying key metrics, and vis
 Building on our Week 1 insights, we now transition from observation to prediction using machine learning.
 
 ### Week 2 Deliverables:
-- Preprocessing & Outlier Handling:
-  - Cleaned anomalies, handled missing values, and encoded categorical features.
+- Preprocessing & Outlier Handling: Cleaned anomalies, handled missing values, and encoded categorical features.
 - Feature Engineering: Extracted relevant features such as vehicle type, model year, county-wise distributions, and time variables to strengthen the model's predictive power.
 - Model Training: Trained a Random Forest Regressor to predict future EV adoption using historical patterns. Hyperparameters were fine-tuned using RandomizedSearchCV.
 - Model Evaluation:Evaluated predictions using MAE, RMSE, and R² metrics to quantify model performance.
