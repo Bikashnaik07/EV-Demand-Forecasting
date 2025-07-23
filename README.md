@@ -8,9 +8,9 @@ This project analyzes and forecasts electric vehicle (EV) adoption trends in Was
 We kick-started with understanding the dataset, identifying key metrics, and visualizing the ongoing EV revolution.
 
 ### Week 1 Deliverables:
-Data loading, cleaning, and initial inspection.
-Monthly registration trends of BEVs and PHEVs.
-County-wise aggregation of vehicle counts
+- Data loading, cleaning, and initial inspection.
+- Monthly registration trends of BEVs and PHEVs.
+- County-wise aggregation of vehicle counts
 EV penetration rate over time
 Time-series visualizations using Matplotlib and Seaborn
 
