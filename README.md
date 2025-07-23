@@ -1,23 +1,23 @@
 # EV-Demand-Forecasting
 Electric Vehicle Population Analysis and Prediction (Washington State, 2017–2024)
 
-#Project Overview
+# Project Overview
 This project analyzes and forecasts electric vehicle (EV) adoption trends in Washington State using historical vehicle registration data (2017–2024) from the Washington State Department of Licensing (via Kaggle). The goal is to explore EV penetration, identify key adoption patterns, and develop predictive models for future EV and charging demands.
 
-##Week 1: Exploratory Data Analysis
+## Week 1: Exploratory Data Analysis
 We kick-started with understanding the dataset, identifying key metrics, and visualizing the ongoing EV revolution.
 
-###Week 1 Deliverables:
+### Week 1 Deliverables:
 Data loading, cleaning, and initial inspection
 Monthly registration trends of BEVs and PHEVs
 County-wise aggregation of vehicle counts
 EV penetration rate over time
 Time-series visualizations using Matplotlib and Seaborn
 
-##Week 2: Forecasting Model Development
+## Week 2: Forecasting Model Development
 Building on our Week 1 insights, we now transition from observation to prediction using machine learning.
 
-###Week 2 Deliverables:
+### Week 2 Deliverables:
 Preprocessing & Outlier Handling:
 Cleaned anomalies, handled missing values, and encoded categorical features.
 Feature Engineering:
@@ -31,6 +31,6 @@ Generated short-term adoption forecasts for both single-county and multi-county 
 Persistence:
 Saved the trained model using joblib for deployment and reuse.
 
-#Data Source:
+# Data Source:
 Washington State Department of Licensing (via Kaggle)
 Dataset: Electric Vehicle Population Size History by County
