@@ -25,6 +25,16 @@ Building on our Week 1 insights, we now transition from observation to predictio
 - Forecasting: Generated short-term adoption forecasts for both single-county and multi-county levels.
 - Persistence: Saved the trained model using joblib for deployment and reuse.
 
+## Week 3: App Development & Deployment
+Built an interactive Streamlit web app to visualize EV trends and predict future adoption.
+
+### Week 3 Deliverables:
+- Integrated trained Random Forest model using joblib.
+- Added dynamic county selection and real-time forecasting.
+- Visualized trends using Matplotlib, Seaborn, and Plotly.
+- Handled missing data, encoding issues, and user errors gracefully.
+- App is deployment-ready for local or cloud hosting.
+
 # Data Source:
 -Washington State Department of Licensing (via Kaggle)
 _Dataset: Electric Vehicle Population Size History by County_
